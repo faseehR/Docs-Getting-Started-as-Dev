@@ -103,3 +103,11 @@ https://questradigital.slack.com/archives/C05GVE2125R/p1690872979594189
 Task 2:
 
 Odoo setup Local environment
+
+Links for setting up local environment
+
+https://kics.edu.pk/essl/blog/setting-up-odoo/
+
+https://www.youtube.com/watch?v=nVFBajJ-sxE
+
+------------------------------------------------------------------------------------------------------------------------------------------------------------------
