@@ -51,3 +51,5 @@ Back in your web browser, reload the page. You should now have Odoo’s database
 links:
 https://www.digitalocean.com/community/tutorials/how-to-install-odoo-on-ubuntu-20-04-with-docker
 ---------------------------------------------------------------------------------------------------------------------------------------------------------
+Task 2:
+Odoo setup Local environment
