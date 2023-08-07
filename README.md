@@ -111,3 +111,48 @@ https://kics.edu.pk/essl/blog/setting-up-odoo/
 https://www.youtube.com/watch?v=nVFBajJ-sxE
 
 ------------------------------------------------------------------------------------------------------------------------------------------------------------------
+
+Task 3:
+
+Odoo HR module code explanation
+
+--------------------------------------------------------------------------------------------------------------------------------------------------------------------
+
+Task 4:
+
+Custom module creation in Odoo
+
+ First install pycharm in ubuntu to run all the cloned files from odoo repositery and then I added odoo conf file in that folder also.
+
+After that I created a custom folder to make new modules in it.
+
+Then make a custom addons folder in which  create a new folder named as hr_attendence in which  create 4 files these are
+
+1-init.py
+
+2-manifest.py
+
+3-controllers
+
+4-models
+
+Then  create a python file in controllers in where api endpoints are defined using http.route ,here is a basic structure of it.
+
+
+from odoo import http
+
+from odoo.http import request
+
+class hrattendance():
+
+@‌http.route('/api/attendance/checkin', type='json', auth='user', methods=['POST'])
+
+def checkin(self,id):
+
+return {'message': 'CheckIn successfull'}
+
+@http.route('/api/attendance/checkout', type='json', auth='user', methods=['POST'])
+
+def checkout(self,id):
+
+return {'message': 'Checkout successfull'}
