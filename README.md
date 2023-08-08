@@ -116,13 +116,9 @@ Task 3:
 
 Odoo HR module code explanation
 
-Links regarding codes
 
-https://github.com/orangehrm/orangehrm
 
-https://github.com/Spidy20/Attendace_management_system
 
-https://github.com/sbstjn/timesheet.js
 
 --------------------------------------------------------------------------------------------------------------------------------------------------------------------
 
